@@ -1,7 +1,7 @@
 body {
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    background-color: #feb300;
+    background-color: #1c1c1c;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background-color: #feb300;
+    background-color: #1c1c1c;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -20,14 +20,14 @@ body {
 }
 
 .titulo {
-    color: #000;
+    color: #feb300;
     margin-bottom: 20px;
     font-size: 2em;
 }
 
 .frase-container {
     font-size: 1.2em;
-    color: #000;
+    color: #feb300;
     margin-bottom: 15px;
     padding: 15px;
     border-top: 2px solid #eee;
@@ -43,7 +43,7 @@ body {
     font-size: 0.9em;
     font-weight: bold;
     text-align: right;
-    color: #000;
+    color: #feb300;
 }
 
 /* Estilos para hacerlo Responsive */
