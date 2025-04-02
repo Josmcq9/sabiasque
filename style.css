@@ -1,0 +1,63 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    background-color: #feb300;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #feb300;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.titulo {
+    color: #000;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.frase-container {
+    font-size: 1.2em;
+    color: #000;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+
+.frase {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.autor {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: right;
+    color: #000;
+}
+
+/* Estilos para hacerlo Responsive */
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .titulo {
+        font-size: 1.5em;
+    }
+
+    .frase-container {
+        font-size: 1em;
+    }
+}
