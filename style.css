@@ -12,8 +12,8 @@ body {
 .container {
     background-color: #1c1c1c;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    padding: 30px;
     width: 80%;
     max-width: 600px;
     text-align: center;
@@ -21,43 +21,55 @@ body {
 
 .titulo {
     color: #feb300;
-    margin-bottom: 20px;
-    font-size: 2em;
+    margin-bottom: 25px;
+    font-size: 2.2em;
+    font-weight: 700;
 }
 
 .frase-container {
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: #feb300;
     margin-bottom: 15px;
-    padding: 15px;
-    border-top: 2px solid #eee;
-    border-bottom: 2px solid #eee;
+    padding: 20px 25px;
+    border-top: 2px solid rgba(254, 179, 0, 0.4);
+    border-bottom: 2px solid rgba(254, 179, 0, 0.4);
 }
 
 .frase {
     font-style: italic;
-    margin-bottom: 5px;
+    margin-bottom: 15px; /* Más espacio debajo de la frase antes de la explicación */
 }
 
-.autor {
-    font-size: 0.9em;
-    font-weight: bold;
-    text-align: right;
-    color: #feb300;
+/* Estilos para la explicación, siempre visible */
+.explicacion {
+    font-size: 0.9em; /* Un poco más pequeña que la frase */
+    color: #feb300; /* Color de texto claro para el fondo oscuro */
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 10px; /* Separación de la frase */
+    padding: 10px 0; /* Un poco de padding interno */
+    border-top: 1px solid rgba(254, 179, 0, 0.1); /* Separador sutil */
 }
 
 /* Estilos para hacerlo Responsive */
 @media (max-width: 480px) {
     .container {
         width: 95%;
-        padding: 15px;
+        padding: 20px;
     }
 
     .titulo {
-        font-size: 1.5em;
+        font-size: 1.8em;
+        margin-bottom: 20px;
     }
 
     .frase-container {
-        font-size: 1em;
+        font-size: 1.1em;
+        padding: 15px 20px;
+    }
+
+    .explicacion {
+        font-size: 0.85em;
+        padding: 8px 0;
     }
 }
